@@ -24,8 +24,7 @@ CREATE TABLE IF NOT EXISTS evaluations (
 
 samples = [
     ('Amit Sharma', 95.0, 90.0, 5, 8, 5, 98.0, 92.0, 9, 10, 5, 6, 95.5),
-    ('Rahul Verma', 40.0, 50.0, 2, 1, 2, 65.0, 45.0, 2, 4, 2, 2, 42.0),
-    ('Sneha Patil', 75.0, 80.0, 4, 3, 4, 90.0, 78.0, 5, 8, 3, 4, 76.0)
+    ('Rahul Verma', 40.0, 50.0, 2, 1, 2, 65.0, 45.0, 2, 4, 2, 2, 42.0)
 ]
 
 cursor.executemany("""
